@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validación de Número de Control ITH</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Si deseas agregar estilos externos -->
+    <script src="validacion.js" defer></script>
+    <!-- Vincular el archivo JavaScript -->
+  </head>
+  <body>
+    <form action="#">
+      <h2>Validación de Número de Control</h2>
+      <label for="numeroControl">Introduce el número de control:</label><br />
+      <input
+      
+        type="text"
+        id="numeroControl"
+        maxlength="8"
+        oninput="validarNumeroControl()"
+        placeholder="Ej: 21840179"
+        required
+      /><br /><br />
+
+      <!-- Mostrar mensaje de validación -->
+      <div id="mensaje"></div>
+    </form>
+  </body>
+</html>

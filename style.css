@@ -1,0 +1,71 @@
+.invalido {
+    color: red;
+}
+.valido {
+    color: green;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Fondo suave */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centra verticalmente */
+    text-align: center;
+}
+
+.formulario {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    max-width: 400px; /* Ancho máximo del formulario */
+    width: 100%; /* Ancho del formulario */
+}
+
+
+label {
+    font-weight: bold;
+    color: #555; /* Color del label */
+}
+
+input[type="text"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espaciado inferior */
+    transition: border 0.3s; /* Transición suave */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff; /* Color del borde al enfocar */
+    outline: none; /* Sin contorno al enfocar */
+}
+
+button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de texto */
+    width: 100%; /* Ancho completo */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+
